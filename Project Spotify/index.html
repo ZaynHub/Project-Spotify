@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+<!-- main start-->
+     <div class="main">
+          <!--------------------------------------------- sidebarr start-------------------------------------------------------------------->
+            <div class="sidebar">
+                <!--  upperleft start -->
+                     <div class="upperleft">
+                         <div class="homediv"><i class="fa-solid fa-house" id="Home"></i> <a href="www.google.com" class="Home">Home </a></div>
+                         <div class="searchdiv"><i class="fa-solid fa-magnifying-glass" id="Search"></i><a href="google.com" class="Search">Search</a></div>
+                     </div>
+                <!--  upperleft end -->
+             <!-- lowerleft start  -->
+                        <div class="lowerleft">
+                                <!-- library start -->
+                                    <div class="lib">
+
+                                            <div class="libr">
+                                                <img src="assets/library_icon.png" alt="library icon" id="library">
+                                                <a href="google.com" class="library">Your library</a>
+                                            </div>
+
+                                            <div class="options">
+                                                <i class="fa-solid fa-plus" id="plus"></i>
+                                                <i class="fa-solid fa-arrow-right" id="arrow"></i>
+                                            </div>
+
+                                    </div>
+                                <!-- library end -->
+                                <!-- Box 1 playlist start -->
+                                    <div class="create1">
+                                        <div class="heading1"><h3>Create your first playlist</h3></div>
+                                        <div class="para1"><h5>It's easy,we'll help you</h5></div>
+                                        <button id="btn1">Create playlist</button>                               
+                                    </div>         
+                                <!-- Box 1 playlist end -->  
+                                <!-- Box 1 playlist start -->
+                                    <div class="create2">
+                                        <div class="heading2"><h3>Let's find some podcasts to <br>follow</br></h3></div>
+                                        <div class="para2"><h5>We'll keep you updated on new <br> episodes</br></h5></div>
+                                        <button id="btn2">Browse podcasts</button>                               
+                                    </div>         
+                                <!-- Box 1 playlist end -->   
+                                
+                        </div>
+                    <!--lowerleft end -->
+                    </div>
+           <!--------------------------------------------------------- sidebar end -------------------------------------------------------->
+            <!------------------------------------------------------- main content start --------------------------------------------------->
+                    <div class="maincontent">
+                        <!-- stickynav start  -->
+                                <div class="stickynav">
+                                    <div class="forback">       
+                                        <div class="forward"><img src="assets/backward_icon.png" alt="#" id="forward"></div>
+                                        <div class="backward"><img src="assets/forward_icon.png" alt="#" id="backward"></div>                                
+                                    </div> 
+                                    <div class="links">
+                                        <div class="explorebtn">
+                                            <button id="btn3"><a href="google.com">Explore Premium</a></button>
+                                        </div>
+                                        <div class="install">
+                                            <button id="btn4"><a href="google.com"><i class="fa-regular fa-circle-down" id="download"></i>Install App </a></button>
+                                        </div>
+                                        <div class="user">
+                                            <i class="fa-regular fa-user" id="user"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        <!-- stickynav end  -->
+                        <!-- content start  -->
+                                <h2 class="top-heading">Recently Played</h2> 
+                                <div class="card-container">
+                                    <div class="card">
+                                        <img src="assets/daylight.png" class="card-img">
+                                        <p class="card-title">Daylight</p>
+                                        <p class="card-info">David Kushner</p>
+                                    </div>  
+                                </div> 
+
+                                <h2 class="top-heading">Trending now near you</h2> 
+                                <div class="card-container">
+                                    <div class="card">
+                                        <img src="assets/card2img.png" class="card-img">
+                                        <p class="card-title">Mahiye Jinna Sohna</p>
+                                        <p class="card-info">Darshan Raval</p>
+                                    </div>                                 
+
+                                 
+                               
+                                    <div class="card">
+                                        <img src="assets/card3img.png" class="card-img">
+                                        <p class="card-title">Mere Paas Tum Ho</p>
+                                        <p class="card-info">Rahat Fateh Ali Khan,</p>
+                                        <p class="card-info">Muhammad Zamin</p>
+                                    </div>                                  
+
+                               
+                               
+                                    <div class="card">
+                                        <img src="assets/card4img.png" class="card-img">
+                                        <p class="card-title">Naa Ready(From "L...</p>
+                                        <p class="card-info">Anirudh Ravichander,</p>
+                                        <p class="card-info">Thalapathy Vijay,Asal...</p>
+                                    </div>  
+
+
+
+                                    <div class="card">
+                                        <img src="assets/jo tum mere ho.png" class="card-img">
+                                        <p class="card-title">Jo Tum Mere Ho</p>
+                                        <p class="card-info">Anuv Jain</p>
+                                    </div>     
+
+
+
+                                    <div class="card">
+                                        <img src="assets/ghost.png" class="card-img">
+                                        <p class="card-title">Ghost</p>
+                                        <p class="card-info">Diljit Dosanjh</p>
+                                        <p class="card-info">Thalapathy Vijay,Asal...</p>
+                                    </div>  
+                                </div> 
+
+
+                                
+                                <h2 class="top-heading">Popular Albums</h2> 
+                                <div class="card-container">
+                                    <div class="card">
+                                        <img src="assets/open letter.png" class="card-img">
+                                        <p class="card-title">Open Letter</p>
+                                        <p class="card-info">2020 .Young Stunners,</p>
+                                        <p class="card-info">Talha Anjum,Talha Yunus</p>
+                                    </div>  
+
+
+                                    
+                                    <div class="card">
+                                        <img src="assets/billie.png" class="card-img">
+                                        <p class="card-title">Happier Than Ever</p>
+                                        <p class="card-info">2021 .Album</p>
+                                        <p class="card-info">Billie Eilish</p>
+                                    </div>  
+
+
+                                    
+                                    <div class="card">
+                                        <img src="assets/weekend.png" class="card-img">
+                                        <p class="card-title">Starboy(Deluxe)</p>
+                                        <p class="card-info">2023 .Album</p>
+                                        <p class="card-info">The Weekend</p>
+                                    </div>  
+
+
+                                    
+                                    <div class="card">
+                                        <img src="assets/cry.png" class="card-img">
+                                        <p class="card-title">Cry</p>
+                                        <p class="card-info">2019 .Album</p>
+                                        <p class="card-info">Cigarettes After Sex</p>
+                                    </div>  
+
+
+
+                                    <div class="card">
+                                        <img src="assets/badshah.png" class="card-img">
+                                        <p class="card-title">Ek Tha Raja</p>
+                                        <p class="card-info">2024 .Album</p>
+                                        <p class="card-info">Badshah</p>
+                                    </div>  
+                                </div> 
+
+
+
+                                <h2 class="top-heading">Featured Charts</h2> 
+                                <div class="card-container">
+                                    <div class="card">
+                                        <img src="assets/card5img.png" class="card-img">
+                                        <p class="card-title">Top Songs - Global</p>
+                                        <p class="card-info">Your weekly update of the most played tracks...</p>
+                                    </div>  
+
+
+                                    <div class="card">
+                                        <img src="assets/card6img.png" class="card-img">
+                                        <p class="card-title">Top Songs - India</p>
+                                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                                    </div>  
+
+
+                                    <div class="card">
+                                        <img src="assets/card1img.png" class="card-img">
+                                        <p class="card-title">Top 50 - Global</p>
+                                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                                    </div>  
+                                </div> 
+                                <!-- footer start -->
+                                <div class="footer">
+                                    <div class="line">
+
+                                    </div>
+                                </div>
+                                <!-- footer end -->
+                        <!-- content end  -->                    
+                    </div>  
+               
+            <!----------------------------------------main content end  -------------------------------------------------------------------->
+            <!----------------------------------------music player start  ------------------------------------------------------------------>
+                    <div class="musicplayer">
+
+
+                        <div class="album">
+                            <div class="icon"><img src="assets/album_picture.png" class="icon1"></div>
+                            <div class="album-info">
+                                <p class="song">Daylight</p>
+                                <p class="singer">David Kushner</p>
+                            </div>
+                            <img src="assets/album_icon1.png" class="fav">
+                            <img src="assets/album_icon2.png" class="panel">
+                        </div>
+
+
+                        <div class="player">
+                            <div class="player-controls">
+                                <img src="assets/player_icon1.png" class="player-control-icon">
+                                <img src="assets/player_icon2.png" class="player-control-icon">
+                                <img src="assets/player_icon3.png" class="player-control-icon" id="icon3">
+                                <img src="assets/player_icon4.png" class="player-control-icon">
+                                <img src="assets/player_icon5.png" class="player-control-icon">
+                            </div>
+                            <div class="progress-bar">
+                                <span class="curr-time">00:00</span>
+                                <input type="range" min="0" max="100" step="1" class="playback-bar">
+                                <span class="tot-time">3:33</span>
+                            </div>
+                        </div>
+
+
+                        <div class="controls">
+                            <img src="assets/controls_icon1.png" class="controls-icon">
+                            <img src="assets/controld_icon2.png" class="controls-icon">
+                            <img src="assets/controls_icon3.png" class="controls-icon" id="control-icon3">
+                            <img src="assets/controls_icon4.png" class="controls-icon" id="control-icon4">
+                            <img src="assets/controls_icon5.png" class="controls-icon">
+                            <input type="range" min="0" max="100" step="1" class="control-range">
+                        </div>
+                    </div>
+            <!----------------------------------------music player end -------------------------------------------------------------------->
+    </div>
+<!---------------------------------------------------- main end --------------------------------------------------------------------------->
+</body>
+</html>
